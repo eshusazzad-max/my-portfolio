@@ -9,6 +9,7 @@ import Projects from "../components/Projects";
 import Education from "../components/Education";
 import Contact from "../components/Contact";
 import Footer from "../components/Footer";
+import Cursor from "../components/Cursor";
 
 const Home = () => {
 
@@ -41,6 +42,7 @@ const Home = () => {
       <Education/>
       <Contact/>
       <Footer/>
+      <Cursor/>
 
     </div>
 
