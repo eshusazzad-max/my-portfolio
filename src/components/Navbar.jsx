@@ -325,40 +325,7 @@ const Navbar = ({ darkMode, setDarkMode }) => {
 
         {/* THEME BUTTON */}
 
-        <button
-
-          onClick={() => setDarkMode(!darkMode)}
-
-          className="
-            ml-4
-
-            w-11
-            h-11
-
-            rounded-full
-
-            bg-white/10
-            dark:bg-white/5
-
-            backdrop-blur-xl
-
-            border border-white/10
-
-            flex items-center justify-center
-
-            text-black
-            dark:text-white
-          "
-        >
-
-          {
-            darkMode
-              ? <FaSun />
-              : <FaMoon />
-          }
-
-        </button>
-
+       
       </div>
 
     </header>
